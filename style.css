@@ -1,0 +1,64 @@
+.container {
+    margin-top: 40px  ;
+    width: 100%;
+    padding: 10px;
+    
+
+    
+}
+.row{
+    padding: 90px;
+   
+}
+.col-md-7{
+    text-align: center;
+}
+p {
+    padding: 10px;
+    color: rgb(59, 20, 233);
+    
+}
+h1{
+    padding: 8px;
+    size: 21px;
+    color: aqua;
+}
+
+.orange-bg {
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+
+.buy-now {
+    background-image: linear-gradient( to bottom, #FF5898 0%, #FF136F 100%);
+    border-radius: 8PX;
+    color: #fff;
+    padding: 9px 25px;
+    border: none;
+    cursor: pointer;
+}
+/*  carosel item */
+
+
+.slide-1{
+    background: url('./images/banner3.png');
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.9);
+    
+}
+.slide-2{
+    background: url('./images/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.9);
+    
+}
+.slide-3{
+    background: url('./images/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(18, 18, 18, 0.70);
+    
+}
