@@ -41,24 +41,54 @@ h1{
 
 
 .slide-1{
-    background: url('./images/banner3.png');
-    background-size: cover;
+    
+    background: 
+    linear-gradient(rgb(44, 13, 20) 0%, rgb(232, 50, 134) 90%), 
+    linear-gradient(to right, rgb(103, 103, 150) 0%, rgb(19, 4, 12) 90%), 
+    
+    url('./images/banner1.png') ;
+  background-blend-mode: screen, difference, lighten;
+  background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.9);
-    
+   
 }
+  
+
+    
 .slide-2{
-    background: url('./images/banner3.png');
+    background: 
+    linear-gradient(rgb(44, 13, 20) 0%, rgb(232, 50, 134) 90%), 
+    linear-gradient(to right, rgb(103, 103, 150) 0%, rgb(19, 4, 12) 90%), 
+    
+    url('./images/banner2.png') ;
+    background-blend-mode: screen, difference, lighten;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.9);
+  
     
 }
 .slide-3{
-    background: url('./images/banner3.png');
+    background: 
+    linear-gradient(rgb(44, 13, 20) 0%, rgb(232, 50, 134) 90%), 
+    linear-gradient(to right, rgb(103, 103, 150) 0%, rgb(19, 4, 12) 90%), 
+    
+    url('./images/banner3.png') ;
+    background-blend-mode: screen, difference, lighten;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(18, 18, 18, 0.70);
+    
+    
+}
+.slide-4{
+    background: 
+    linear-gradient(rgb(44, 13, 20) 0%, rgb(232, 50, 134) 90%), 
+    linear-gradient(to right, rgb(103, 103, 150) 0%, rgb(19, 4, 12) 90%), 
+    
+    url('./images/banner3.png') ;
+    background-blend-mode: screen, difference, lighten;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
     
 }
